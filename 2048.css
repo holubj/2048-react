@@ -1,0 +1,41 @@
+body,
+html {
+  margin: 0;
+  background: #faf8ef;
+  font-family: 'Arial';
+}
+
+body {
+  text-align: center;
+}
+
+.board {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 2px;
+  background: #bbada0;
+  border-radius: 5px;
+}
+
+.history {
+  margin-top: 40px;
+}
+
+.tile {
+  margin: 2px;
+  display: inline-block;
+  width: 76px;
+  height: 76px;
+  vertical-align: top;
+  box-sizing: border-box;
+  background: #cdc1b4;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #f9f6f2;
+  transition: transform 1s;
+  transition: transform 0.08s linear;
+  transform: scale(1);
+  text-align: center;
+  line-height: 76px;
+}
